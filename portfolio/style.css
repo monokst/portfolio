@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+
+    
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #18191a, #242526);
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 250px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nome {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    margin: 5px;
+}
+
+.profissao {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.botaoo {
+    padding: 10px;
+}
+
+.botao {
+    display: inline-block;
+    align-items: center;
+    background-color: #382d77;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    height: 35px;
+    width: 93px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 300px;
+}
+
+.titulo {
+    color: white;
+    padding: 25px;
+    margin: -15px;
+    font-size: 40px;
+}
+
+.paragrafo {
+    color: rgb(185, 183, 183);
+}
+
+.foto {
+    width: 270px;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container3 {
+    display: flex;
+    margin: 35px;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 15px;
+    margin: 80px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+    width: 300px;
+    height: 380px;
+    background-color: #2b2b2b;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card>h1 {
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.card>p {
+    font-size: 14px;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.card>img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.html {
+    width: 23%;
+    height: 4%;
+}
+
+.css {
+    width: 60px;
+    height: -1%;
+}
+
+.final {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+    gap: 40px;
+}
+
+.link {
+    width: 50px;
+    height: 50px;
+}
+
+.insta {
+    width: 50px;
+}
+
+.email {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 1020px) {
+    .body {
+        background: #18191a;
+    }
+
+    .container1 {
+        margin: 55px;
+        padding: 5px;
+    }
+
+    .nome {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .profissao {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .container2 {
+        display: block;
+        flex-direction: row;
+        margin: 10px;
+        padding: 50px;
+    }
+
+    .foto {
+        width: 166px;
+        padding: 40px;
+        margin: 20px;
+        align-items: center;
+    }
+
+    .foto1 {
+        width: 166px;
+        align-items: center;
+    }
+
+    .titulo {
+        font-size: 24px;
+        text-align: center;
+        align-items: center;
+        margin: 2px;
+    }
+    .paragrafo {
+        font-size: 14px;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 5%;
+    }
+
+    .container3 {
+        margin: 2px;
+        padding: 3px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto {
+        margin: 10px;
+    }
+
+    .cardcard2 {
+        width: 15px;
+        height: 25px;
+        border-radius: 15px;
+    }
+    
+    .card>h1 {
+        font-size: 20px;
+        padding-top: 10px;
+        margin: 5px;
+    }
+    
+    .card>p {
+        font-size: 15px;
+        padding-top: 10px;
+        margin: 6px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    .card>img {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .html {
+        width: 43px;
+        height: 40px;
+    }
+    
+    .css {
+        width: 42px;
+        height: 40px;
+    }
+    
+    .link {
+        width: 45px;
+        height: 44px;
+    }
+    
+    .insta {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .email {
+        width: 45px;
+        height: 45px;
+
+}
+}
